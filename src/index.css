@@ -17,9 +17,18 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 10px white;
 }
